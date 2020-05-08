@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.s1{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+.button{
+    color: green ;
+    background: whitesmoke;
+    padding: 10px;
+    margin: 5px;
+    box-shadow:1px 1px 2px #000000 ;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 15px;
+}
+.logo img { 
+     float: left;
+     width: 200px;
+     height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+ul{ 
+    float: right;
+     list-style-type: none;
+     margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent ;
+    border-radius: 25px;
+    box-shadow: 5px 10px lightgray ;
+}
+a:hover{
+    background: blue;
+    color: white;
+}
+ul li.active a{
+    background: blue;
+    color: white;
+}
+
+.s3{
+    height: 100px ;
+    width: auto;
+    padding: 10px ;
+}
+.s5{
+    border: 1px solid grey;
+    color: blueviolet;
+    background-color: whitesmoke;
+    padding: 10px 10px;
+    width: 200px;
+}
+.s6{
+     border: 1px solid grey ;
+     padding: 10px;
+     width: 250px ;
+     text-align: center;
+     background-color: white;
+     text-shadow: #25272E;
+    }
+    .last_2{
+        background-color:#25272E;
+        color: whitesmoke;
+        padding: 50px;
+    } 
+    .last{
+        background-color:blue;
+         color: white;
+         padding: 10px ;
+    } 
